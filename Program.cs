@@ -16,9 +16,13 @@ namespace AbstractExample
             {
                 animal = new Pig();
             }
-            else if (choice == "2")
+            if (choice == "2")
             {
                 animal = new Dog();
+            }
+            if (choice == "3")
+            {
+                animal = new Snake();
             }
 
             animal?.MakeNoise();
